@@ -8,10 +8,15 @@ import {
     Input,
   
     SimpleGrid,
+
+
     Text,
    
     VStack,
   } from "@chakra-ui/react";
+
+
+
   import React from "react";
 
 
@@ -25,6 +30,8 @@ function Login(){
             <Text>HEY! NICE TO SEE YOU</Text>
         </VStack>
 <SimpleGrid columns={2} columnGap={3} rowGap={4}>
+
+    
     <GridItem colSpan={1}>
         <FormControl>
  <FormLabel>First Name</FormLabel>
